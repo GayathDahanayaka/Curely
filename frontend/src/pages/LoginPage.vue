@@ -112,7 +112,7 @@ onMounted(() => {
   /* global google */
   if (typeof google !== 'undefined') {
     google.accounts.id.initialize({
-      client_id: '820693173895-c29oqftjdl64hngn7o07bidlm4ge4vk0.apps.googleusercontent.com',
+      client_id: '950470855729-krk355m40l74epsf6arjeackf752lhts.apps.googleusercontent.com',
       callback: handleGoogleLogin
     });
     google.accounts.id.renderButton(
